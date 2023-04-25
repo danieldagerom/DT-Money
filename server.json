@@ -15,6 +15,14 @@
             "category": "Alimentação",
             "price": 50,
             "createdAt": "2023-04-24T01:55:55.782Z"
+        },
+        {
+            "id": 3,
+            "description": "Lombinho",
+            "type": "outcome",
+            "category": "Alimentação",
+            "price": 1980,
+            "createdAt": "2023-04-19T01:55:55.782Z"
         }
     ]
 }
