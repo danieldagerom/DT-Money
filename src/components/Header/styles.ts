@@ -31,11 +31,7 @@ export const HeaderContent = styled.div`
     
     @media(max-width: 500px) {
       width: 120px;
-    }  
-
-    @media(max-width: 400px) {
-      width: 100px;
-    }   
+    }     
 `
 
 export const NewTransactionButton = styled.button`
