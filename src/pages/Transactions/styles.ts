@@ -14,6 +14,10 @@ export const TransactionsTable = styled.table`
   margin-top: 1.5rem;
 
   td {
+    @media (max-width: 500px) {
+      padding: 1rem 1rem;
+    }
+
     padding: 1.25rem 2rem;
     background: ${(props) => props.theme['gray-700']};
 

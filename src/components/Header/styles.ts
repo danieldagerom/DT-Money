@@ -3,17 +3,39 @@ import styled from 'styled-components'
 export const HeaderContainer = styled.header`
   background: ${(props) => props.theme['gray-900']};
   padding: 2.5rem 0 7.5rem;
+  @media (max-width: 1400px) {
+    border-bottom-left-radius: 0;
+  }
+  @media (max-width: 900px) {
+    border-bottom-left-radius: 0;
+  }
 `
 
 export const HeaderContent = styled.div`
   width: 100%;
-  max-width: 1120px;
   margin: 0 auto;
   padding: 0 1.5rem;
 
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @media(max-width: 500px) {
+    padding: 1rem 1rem 5rem;
+  }
+
+  img{
+    @media(max-width: 700px) {
+      width: 150px;
+    }
+    
+    @media(max-width: 500px) {
+      width: 120px;
+    }  
+
+    @media(max-width: 400px) {
+      width: 100px;
+    }   
 `
 
 export const NewTransactionButton = styled.button`

@@ -1,7 +1,6 @@
 import styled, { css } from 'styled-components'
 
 export const SummaryContainer = styled.section`
-  width: 100%;
   max-width: 1120px;
   margin: 0 auto;
   padding: 0 1.5rem;
@@ -11,6 +10,26 @@ export const SummaryContainer = styled.section`
   gap: 2rem;
 
   margin-top: -5rem;
+
+  @media (max-width: 1080px) {
+    max-width: 800px;
+    gap: 2rem;
+  }
+  @media (max-width: 700px) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 800px;
+    gap: 1rem;
+  }
+
+  @media (max-width: 700px) {
+    max-width: 45%;
+  }
+
+  @media (max-width: 500px) {
+    margin-top: -8rem;
+  }
 `
 
 interface SummaryCardProps {
